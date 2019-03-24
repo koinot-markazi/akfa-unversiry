@@ -1,3 +1,6 @@
+body{
+    background-image: url(../img/bg_logo.png);
+}
 .gallery-type{
     width: 100%;
     height: 200px;

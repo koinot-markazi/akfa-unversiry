@@ -13049,7 +13049,7 @@ strong {
 }
 
 .big_search {
-    background: #fafafa
+    /* background: #fafafa */
 }
 
 .big_search .searching {
@@ -13099,7 +13099,7 @@ strong {
 }
 
 .section {
-    background: #fafafa;
+    /* background: #fafafa; */
     background-image: "../img/bg_logo.png"
 }
 
@@ -13174,7 +13174,11 @@ strong {
 }
 
 .bg_grey {
-    background: #fafafa
+    background: #fafafa;
+    background-image: url(../img/bg_logo.png);
+    background-repeat: no-repeat;
+    background-position: right 100px;
+    background-attachment: fixed;
 }
 
 .why_we {
@@ -13298,7 +13302,7 @@ strong {
     height: 35px;
     -webkit-border-radius: 0;
     border-radius: 0;
-    background: #e5e5e5;
+    background: #eee;
     font-size: .9em
 }
 
@@ -13336,13 +13340,13 @@ footer .footer ul li {
 
 .designed {
     background: #af0000;
-    min-height: 80px
+    /* min-height: 40px */
 }
 
 .designed p {
     color: #fff;
     font-size: .9em;
-    margin-top: 3%
+    padding: 10px
 }
 
 .breadcrumb_b .date {
