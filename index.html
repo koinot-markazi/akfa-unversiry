@@ -17,13 +17,14 @@
 
 <body>
 	<div class="conatiner-fluid bg_grey">
+		<form action="" role="search" method="GET" class="search-form" id="search-form">
+			<input class="search-field" type="search" placeholder="Search..." aria-label="Search">
+		</form>
 			<div class="sticky-top nav">
 					<div class="container">
 						<nav class="navbar  navbar-expand-lg">
 							<a href="index.html" class="navbar-brand logo"><img class="img_logo img-fluid" src="img/logo.svg" alt="logo"/></a>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<img src="img/bars.svg" alt="" width="25px">
-							</button>
+							
 							<div id="navbarSupportedContent" class="collapse navbar-collapse" >
 								<ul class="navbar-nav ml-auto Menu -horizontal" id="mainMenuList">
 									<li class="nav-item -hasSubmenu">
@@ -67,10 +68,12 @@
 								</ul>
 									</li>
 								</ul> 
-								<form class="form-inline my-lg-0">
-									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+								  
+							</div>
+								<form class="form-inline my-lg-0 ml-sm-auto">
+									<input id="search_button" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 									<button class="btn btn-outline-success my-2 my-sm-0" type="submit" hidden>Search</button>
-								</form>
+								</form>	
 								<div class="language">  
 									<div class="dropdown">
 									<a class="dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</a>
@@ -79,8 +82,15 @@
 											<a class="dropdown-item" > O'zbekcha</a>
 										</div>
 									</div> 
-								</div>  
-							</div>			
+								</div>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<!-- <img id="bars_times" src="img/bars.svg" alt="" width="25px"> -->
+									<div class="bar_icon">
+										<span class="line top"></span>
+										<span class="line middle"></span>
+										<span class="line bottom"></span>
+									</div>
+								</button>
 						</nav>			
 					</div>
 				</div>
